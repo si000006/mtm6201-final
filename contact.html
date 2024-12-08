@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Senyo Miniatures</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="contact-page">
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="images/neon-logo.png" alt="Senyo Miniatures Logo" class="neon-logo">
+            </div>
+            <div class="header-controls">
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li><a href="index.html">Main</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+                        <li><a href="about.html">About</a></li>
+                    </ul>
+                </nav>
+                <div class="user-icon" role="img" aria-label="User account"></div>
+                <a href="#" class="login-btn">LOG IN</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main-content">
+        <div class="contact-container">
+            <div class="contact-form-section">
+                <h1>Contact</h1>
+                <p class="form-intro">Let us know who you are. Required fields are marked with (optional).</p>
+                
+                <form class="contact-form" action="#" method="POST">
+                    <div class="form-grid">
+                        <div class="form-group">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstName" name="firstName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="telephone">Telephone Number (optional)</label>
+                            <input type="tel" id="telephone" name="telephone">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="model">Model</label>
+                            <input type="text" id="model" name="model" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="budget">Budget</label>
+                            <input type="text" id="budget" name="budget" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="paintjob">Level of Paintjob</label>
+                            <input type="text" id="paintjob" name="paintjob" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="colorScheme">Color Scheme</label>
+                            <input type="text" id="colorScheme" name="colorScheme" required>
+                        </div>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">I provide express consent to receive coupons, events or promotions via your newsletter. I can unsubscribe at any time.</label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">Submit</button>
+                </form>
+            </div>
+
+            <div class="contact-image">
+                <img src="images/quote-sheet.png" alt="Quote sheet illustration">
+            </div>
+        </div>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <nav class="social-links" aria-label="Social media links">
+                <a href="https://facebook.com" target="_blank" rel="noopener">
+                    <img src="images/facebook.png" alt="Visit us on Facebook">
+                </a>
+                <a href="https://x.com" target="_blank" rel="noopener">
+                    <img src="images/twitter.png" alt="Follow us on X">
+                </a>
+                <a href="https://youtube.com" target="_blank" rel="noopener">
+                    <img src="images/youtube.png" alt="Watch our YouTube channel">
+                </a>
+                <a href="terms.html">Terms</a>
+            </nav>
+            <p class="copyright">© 2024 - Senyo, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
